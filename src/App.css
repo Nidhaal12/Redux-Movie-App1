@@ -1,0 +1,333 @@
+body , html ,  .filmlist,.col-md-11,.col-md-1 , .loading-container,.App {
+background:url(http://thepatternlibrary.com/img/h.jpg)!important;
+
+}
+
+
+.navbar-light{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position : fixed;
+  top: 0;
+  width: 100%;
+  z-index: 144; 
+  background-image: url(bg-title-shop.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #a7222b!important;
+
+}
+.edit {
+  background-color: black;
+  margin-top: 2em !important;
+  width: 150px !important;
+}
+
+.navbar-light h1 {
+    color : rgb(228, 198, 25);
+   font-family: "Comic Sans MS", cursive, sans-serif ; 
+ margin-left: 10px;
+  }
+
+  .title {
+display: flex;
+justify-content: space-between;
+align-items: center
+  }
+
+  .navbar-light .fa-video {
+    color :  rgb(228, 198, 25);
+
+  }
+
+
+.navbar-light form{
+ margin-right: 50px;
+}
+
+.heart {
+  width : 200px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(216, 173, 173);
+
+}
+
+.heart i:hover {
+color : rgb(228, 228, 25);
+cursor: pointer;
+}
+
+.isyellow {
+
+  color : rgb(228, 228, 25);
+}
+
+.card {
+ width: 300px;
+margin-top: 25px;
+margin-bottom: 10px;
+cursor: pointer;
+box-shadow : 0 0 5px 0px #d6d0d0;
+}
+.card img {
+  height: 65%;
+
+ }
+
+.cardadd {
+width: 300px;
+height: 500px;
+margin-top:25px; 
+}
+
+ .card-body{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+ }
+ .card-body a {
+  width: 150px;
+  margin-top: 20px;
+  
+ }
+ 
+ .filmlist {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+ }
+ .fa-reply-all  {
+ color : rgb(53, 141, 137);
+ margin-right: 80px;
+  cursor: pointer;
+ }
+ .fa-reply-all:hover  {
+  color : lightseagreen;
+   
+  }
+
+  .modal-header {
+    background-image: url(bg-title-shop.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #a7222b;
+    color: white;
+}
+
+.information {
+    margin: auto;
+}
+
+.information {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-body {
+  z-index: 1444; 
+    background-color: #ffc107;
+}
+
+.information form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(37, 30, 30);
+    font-weight: bold;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    background-color: pink;
+    color: rgb(37, 30, 30);
+    font-weight: bold;
+    border: 1px outset white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover  {
+    transform: scale(1.2)
+}
+
+form input {
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    color: rgb(37, 30, 30);
+    border: 1px inset white;
+    border-radius: 5px;
+}
+
+form textarea {
+    width: 300px;
+    height: 57px;
+    background-color: white;
+    color: rgb(37, 30, 30);
+    border: 1px inset white;
+    border-radius: 5px;
+}
+
+
+.subres {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.modelcart .card {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.modal-footer {
+    background-image: url(bg-title-shop.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #a7222b;
+    color: white;
+}
+.list{
+
+    border: solid;
+    width: 200px;
+    height:200px;
+}
+.margin {
+ height: 60px;
+
+}
+
+h1 {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(190, 124, 124), rgb(211, 87, 87), rgb(219, 163, 60));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+
+  }
+  
+  .loading-container {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
+  }
+  
+  .hr{
+    height:2px;
+    margin:60px 0 50px 0;
+    background:rgba(255,255,255,.2);
+  }
+  .foot-lnk{
+    text-align:center;
+  }
+
+  
+  
+  .col-md-11 {
+    margin-left:96px;
+  }
+
+  
+
+  header {
+
+    position: relative;
+    background-color: black;
+    height: 80vh;
+    min-height: 25rem;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 60%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
+
+   h2 {
+     margin-top :20px;
+     margin-bottom: 20px;
+    text-align: center;
+    color : white;
+  }
+
+  .next{
+
+    background:url(http://thepatternlibrary.com/img/h.jpg);
+    color:#a7222b;
+    border : 0px;
+    box-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .next:hover ,.fa-angle-double-right:hover {
+
+color : #b15057;
+  }
+  
+  .fa-angle-double-right , .fa-angle-double-left {
+    cursor: pointer;
+    color:#a7222b;
+  }
+
+  .loadmore{
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+  }
+
+  .prevnext{
+width: 90vw;
+  display: flex;
+  justify-content: center;
+  }
